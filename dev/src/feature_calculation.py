@@ -20,10 +20,4 @@ class Calculation:
             if self.operator == '*':
                 result = int(result) * int(num)
                 return result
-# 더하기 객체선언            
-Op1 = Caculation('+')
-# 빼기 객체선언
-Op2 = Caculation('-')
-# 곱하기 객체선언
-Op3 = Caculation('*')
         
