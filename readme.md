@@ -12,7 +12,7 @@ easter Egg 기능 List
 
 3. Reset 기능 → 0을 입력 시, ~~계산기 초기화~~ -> 일정 시간 지난 후 프로그램 종료[completed]
 
-[feature/calculate] - 박용수(kimewie) **In Progress**
+[feature/calculate] - 박용수(kimewie) **Completed**
 
 [feature/input] - 박종민(jongmiiin) **In Progress**
 
