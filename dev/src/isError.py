@@ -1,7 +1,7 @@
 import sys
 
-input = sys.stdin.readline
-result = None
+# input = sys.stdin.readline
+# result = None
 
 class calculatorIsError:
     def __init__(self):
@@ -23,8 +23,8 @@ class calculatorIsError:
             self.isError = True
         return self.isError
 
-def test():
-    calcError = calculatorIsError()
+# def test():
+#     calcError = calculatorIsError()
 
-if __name__ == "__main__":
-    test()
+# if __name__ == "__main__":
+#     test()
