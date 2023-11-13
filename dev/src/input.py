@@ -1,14 +1,21 @@
+from easteregg import EasterEgg
+
 class CalculatorInput:
     def __init__(self, input_str):
         self.input_str = input_str
 
     def cal_input(self):
         # 정수인지 판단 - 양수 or 음수
+        egg = EasterEgg()
         if self.input_str.isdigit() or (self.input_str[1:].isdigit() and self.input_str[0] == '-'):
+            egg.checkEasterEgg(self.input_str)
             return "Integer"
         # 기호인지 판단
         elif self.input_str in ['+', '-', '*']:
             return "Operator"
+        # '='인지 판단
+        elif self.input_str == '=':
+            return "Equal"
         # 그외 판단
         else:
             return "Other"
