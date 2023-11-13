@@ -14,7 +14,7 @@ class CalculatorInput:
             return "Other"
 
 # 사용 예시
-user_input = input("숫자 또는 기호를 입력하세요: ")
-cal_class = CalculatorInput(user_input)
-result = cal_class.cal_input()
-print(f"입력된 값은 {result}입니다.")
+# user_input = input("숫자 또는 기호를 입력하세요: ")
+# cal_class = CalculatorInput(user_input)
+# result = cal_class.cal_input()
+# print(f"입력된 값은 {result}입니다.")
