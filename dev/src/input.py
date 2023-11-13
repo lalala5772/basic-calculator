@@ -6,9 +6,9 @@ class CalculatorInput:
 
     def cal_input(self):
         # 정수인지 판단 - 양수 or 음수
-        egg = EasterEgg()
+        egg = EasterEgg() # easteregg 객체선언
         if self.input_str.isdigit() or (self.input_str[1:].isdigit() and self.input_str[0] == '-'):
-            egg.checkEasterEgg(self.input_str)
+            egg.checkEasterEgg(self.input_str) # input값이 easteregg인지 체크
             return "Integer"
         # 기호인지 판단
         elif self.input_str in ['+', '-', '*']:
