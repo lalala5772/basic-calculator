@@ -1,3 +1,6 @@
+from view import InputView, OutputView
+from EasterEgg import EasterEgg
+
 class InputCheck:
     def __init__(self):
         self.inputView = InputView()

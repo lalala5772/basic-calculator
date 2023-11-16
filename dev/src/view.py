@@ -1,3 +1,5 @@
+import time
+
 class InputView:
     def readLine(self):
         expression = input("수식을 입력하세요 (종료하려면 '=' 입력): ")
