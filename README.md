@@ -37,8 +37,7 @@
 
 
   
-
+---
 ## Work Flow
 
-![Workflow_Diagram](https://github.com/lalala5772/algorithm/assets/65425885/0aba9fb1-3b09-418d-9583-ac7aa83d01b1)
-
+![WorkflowDiagram](https://github.com/lalala5772/basic-calculator/assets/65425885/c68dbba3-4074-4b9a-b856-903f997a92d7)
