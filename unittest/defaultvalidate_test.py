@@ -1,5 +1,5 @@
 import unittest
-from validator import Validator, DefaultException  # your_module은 실제 모듈의 이름으로 대체되어야 합니다.
+from validator import Validator, DefaultException
 
 class TestValidator(unittest.TestCase):
     def setUp(self):
