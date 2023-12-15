@@ -6,15 +6,15 @@ class TestCalculator(unittest.TestCase):
         self.calculator = Calculator()
 
     def test_factorial_calculate(self):
-        expression = ["5", "!", "="]
+        expression = ["5", "!"]
         result = self.calculator.factorial_calculate(expression)
         self.assertEqual(result, 120)
         
-        expression = ["1", "!", "="]
+        expression = ["1", "!"]
         result = self.calculator.factorial_calculate(expression)
         self.assertEqual(result, 1)
         
-        expression = ["10", "!", "="]
+        expression = ["10", "!"]
         result = self.calculator.factorial_calculate(expression)
         self.assertEqual(result, 3628800)
 
