@@ -29,6 +29,9 @@ class InputCheck:
 
             if self.is_equal_sign(expression): # 입력이 '=' 면 반복문 종료
                 break
+            
+            if expression == "!": # 입력이 '!'이면 반복문 종료
+                break
         
         return final_expression
 
