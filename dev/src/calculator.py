@@ -1,4 +1,13 @@
 class Calculator:
+
+    def factorial_calculate(self, expression):
+        result = 1
+        for number in range(1, int(expression[0]) + 1):
+            result *= number
+
+        return result
+
+
     def calculate(self, expression):
         result = None
         operator = None
