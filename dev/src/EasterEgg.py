@@ -1,7 +1,7 @@
 class EasterEgg:
     def __init__(self):
         self.EASTER_EGG = "[EVENT] "
-        self.COUNTDOWN_EASTER_EGG_EXPRESSION = '0' # 카운트 다운 이스터에그 표현식, 입력이 '0' 인 경우 "이스터에그"
+        self.COUNTDOWN_EASTER_EGG_EXPRESSION = '00' # 카운트 다운 이스터에그 표현식, 입력이 '0' 인 경우 "이스터에그"
         self.STUDENT_ID_EASTER_EGG_EXPRESSIONS = { # 학번 이스터에그 표현식, 입력이 아래 학번 중 하나 인 경우 "이스터에그"
             '201918757': '강성택',
             '201918777': '박종민',
