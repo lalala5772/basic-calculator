@@ -6,7 +6,7 @@ class TestValidator(unittest.TestCase):
         self.validator = Validator()
 
     def test_is_factorial_expression_with_factorial(self):
-        expression = ["5", "!", "="]
+        expression = ["5", "!"]
         result = self.validator.is_factorial_expression(expression)
         self.assertTrue(result)
 
